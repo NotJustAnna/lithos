@@ -1,0 +1,15 @@
+@use 'scss/variables' as *;
+@use 'scss/fonts' as *;
+
+body {
+  @include app-font;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: $background-color;
+  color: $text-color;
+}
+
+code {
+  @include app-font-monospaced;
+}

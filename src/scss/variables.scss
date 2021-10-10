@@ -1,0 +1,24 @@
+@use "sass:color";
+
+//$background-color: color.scale(color.scale(#101015, $blue: -10%), $lightness: 10%, $saturation: 5%);
+$background-color: #24242f;
+$text-color: #f0f0ff;
+
+// $card-slot-color: color.scale($background-color, $lightness: -40%, $saturation: -5%);
+$card-slot-background-color: #16161c;
+
+
+//$card-background-color: color.scale(color.scale(#f5e8bd, $blue: 5%), $lightness: 5%, $saturation: -5%);
+//$card-background-color: color.scale(#f4e9c4, $lightness: 30%, $saturation: -15%);
+$card-background-color: #f5eed8;
+
+$card-color: #16161c;
+
+//$health-bar-zero: color.adjust(color.scale(yellow, $lightness: 20%, $saturation: -20%), $hue: 5deg);
+$health-bar-zero: #ddeb47;
+
+//$health-bar-pos:  color.adjust(color.scale(green, $lightness: 20%, $saturation: -20%), $hue: 5deg);
+$health-bar-pos: #14b822;
+
+//$health-bar-neg:  color.adjust(color.scale(red, $lightness: 20%, $saturation: -20%), $hue: 5deg);
+$health-bar-neg: #eb5547;

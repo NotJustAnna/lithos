@@ -1,0 +1,16 @@
+@use '../../scss/fonts' as *;
+
+.gameStatus {
+  text-align: center;
+  margin-top: 1rem;
+
+  .title {
+    @include app-font-bold;
+    font-size: 2rem;
+    text-transform: uppercase;
+  }
+
+  .subtitle {
+    font-size: 1.25rem;
+  }
+}

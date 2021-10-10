@@ -1,0 +1,13 @@
+@use '../../scss/variables' as *;
+@use '../../scss/fonts' as *;
+@use '../../scss/card.mixin' as *;
+
+.getCardSm {
+  @include unstyle-button;
+  @include card-simple($scale: 1);
+}
+
+.getCardMd {
+  @include unstyle-button;
+  @include card-simple($scale: 1);
+}

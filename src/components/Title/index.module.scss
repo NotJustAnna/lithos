@@ -1,0 +1,9 @@
+@use '../../scss/fonts' as *;
+
+.title {
+  @include app-font-logo;
+  font-size: 4rem;
+  text-align: center;
+  margin-top: 0.25em;
+  margin-bottom: 0;
+}

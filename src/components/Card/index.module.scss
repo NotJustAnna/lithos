@@ -1,0 +1,11 @@
+@use '../../scss/card.mixin' as *;
+
+.cardSm {
+  @include unstyle-button;
+  @include card-full($scale: 1);
+}
+
+.cardMd {
+  @include unstyle-button;
+  @include card-full($scale: 2);
+}

@@ -1,0 +1,12 @@
+@use '../../scss/variables' as *;
+@use '../../scss/card.mixin' as *;
+
+.cardSlotSm {
+  @include unstyle-button;
+  @include card-slot($scale: 1);
+}
+
+.cardSlotMd {
+  @include unstyle-button;
+  @include card-slot($scale: 2);
+}

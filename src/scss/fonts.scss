@@ -1,0 +1,33 @@
+$system-font-stack: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+  'Fira Sans', 'Droid Sans', 'Helvetica Neue';
+$system-monospaced-font-stack: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+
+@mixin app-font-logo {
+  font-family: 'Akronim', $system-font-stack, cursive;
+  font-weight: 400;
+}
+
+@mixin app-font-title {
+  font-family: 'Architects Daughter', $system-font-stack, cursive;
+  font-weight: 400;
+}
+
+@mixin app-font-thin {
+  font-family: 'Londrina Solid', $system-font-stack, sans-serif;
+  font-weight: 100;
+}
+
+@mixin app-font {
+  font-family: 'Londrina Solid', $system-font-stack, sans-serif;
+  font-weight: 300;
+}
+
+@mixin app-font-bold {
+  font-family: 'Londrina Solid', $system-font-stack, sans-serif;
+  font-weight: 400;
+}
+
+@mixin app-font-monospaced {
+  font-family: 'Share Tech Mono', $system-monospaced-font-stack, monospace;
+  font-weight: 400;
+}

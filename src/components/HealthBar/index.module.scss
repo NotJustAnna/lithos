@@ -1,0 +1,38 @@
+@use '../../scss/variables' as *;
+@use "sass:math";
+
+.bar {
+  background-color: $card-slot-background-color;
+  border-radius: 0.5rem;
+  & > * {
+    border-radius: 0.5rem;
+    transition: 0.3s;
+    height: 1rem;
+  }
+}
+
+.title {
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.value-0 {
+  margin-left:auto;
+  margin-right:auto;
+
+  width: 1rem;
+  background-color: $health-bar-zero;
+}
+
+@for $i from 1 through 5 {
+  .value-neg-#{$i} {
+    background-color: $health-bar-neg;
+    width: percentage(math.div($i, 10) + 0.5);
+    margin-left:auto;
+  }
+  .value-pos-#{$i} {
+    background-color: $health-bar-pos;
+    width: percentage(math.div($i, 10) + 0.5);
+  }
+}

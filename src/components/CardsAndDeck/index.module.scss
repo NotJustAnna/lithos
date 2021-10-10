@@ -1,0 +1,31 @@
+.mainRow {
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+  //align-content: space-between;
+  gap: 0.5rem;
+}
+
+.cardRow {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  overflow-x: scroll;
+  white-space: nowrap;
+  align-items: center;
+  padding: 0.5rem 0.5rem 0.5rem 5.5rem;
+  transition: all 0.3s;
+
+  & > * {
+    margin-left: -5rem;
+    min-height: min-content;
+  }
+}
+
+.deckRow {
+  display: flex;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  justify-content: center;
+  gap: 0.5rem;
+}
