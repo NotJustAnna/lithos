@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Stoat",
+    "description": "A stoat.",
+    "atk": 1,
+    "hp": 3,
+    "sacrifices": 1
+  },
+  {
+    "name": "River Snapper",
+    "description": "A very angry turtle.",
+    "atk": 1,
+    "hp": 6,
+    "sacrifices": 2
+  },
+  {
+    "name": "Wolf Cub",
+    "description": "A wolf cub.",
+    "atk": 1,
+    "hp": 1,
+    "sacrifices": 1
+  },
+  {
+    "name": "Wolf",
+    "description": "An adult wolf.",
+    "atk": 3,
+    "hp": 2,
+    "sacrifices": 2
+  },
+  {
+    "name": "Coyote",
+    "description": "A hungry coyote.",
+    "atk": 2,
+    "hp": 1,
+    "sacrifices": 1
+  },
+  {
+    "name": "Sparrow",
+    "description": "It is not a pokemon.",
+    "atk": 1,
+    "hp": 2,
+    "sacrifices": 1
+  },
+  {
+    "name": "Bullfrog",
+    "description": "It is not a pokemon.",
+    "atk": 1,
+    "hp": 2,
+    "sacrifices": 1
+  }
+]

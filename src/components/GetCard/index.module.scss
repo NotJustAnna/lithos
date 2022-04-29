@@ -1,6 +1,6 @@
-@use '../../scss/variables' as *;
-@use '../../scss/fonts' as *;
-@use '../../scss/card.mixin' as *;
+@use '../../common/scss/variables' as *;
+@use '../../common/scss/fonts' as *;
+@use '../../common/scss/card.mixin' as *;
 
 .getCardSm {
   @include unstyle-button;

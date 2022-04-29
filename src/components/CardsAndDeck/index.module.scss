@@ -6,21 +6,24 @@
   gap: 0.5rem;
 }
 
-.cardRow {
-  display: flex;
-  justify-content: center;
-  gap: 0.5rem;
-  overflow-x: scroll;
-  white-space: nowrap;
-  align-items: center;
-  padding: 0.5rem 0.5rem 0.5rem 5.5rem;
-  transition: all 0.3s;
+@for $i from 0 through 5 {
+  .cardRow#{$i} {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    overflow-x: scroll;
+    white-space: nowrap;
+    align-items: center;
+    padding: 0.5rem 0.5rem 0.5rem $i + 0.5rem;
+    transition: all 0.3s;
 
-  & > * {
-    margin-left: -5rem;
-    min-height: min-content;
+    & > * {
+      margin-left: $i * -1rem;
+      min-height: min-content;
+    }
   }
 }
+
 
 .deckRow {
   display: flex;

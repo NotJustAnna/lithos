@@ -1,5 +1,5 @@
-@use 'scss/variables' as *;
-@use 'scss/fonts' as *;
+@use 'common/scss/variables' as *;
+@use 'common/scss/fonts' as *;
 
 body {
   @include app-font;
